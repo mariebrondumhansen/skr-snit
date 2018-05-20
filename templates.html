@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<!--Gør det responsivt-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--end-->
+<!--Link til Google font-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
+<!--end--> 
+<style>
+	/*Fonte*/
+	H1{ font-family: 'Rajdhani', sans-serif;}
+	p{ font-family: 'Open Sans Condensed', sans-serif;}
+	/*End*/
+	.menu{ 
+	text-decoration: none;
+	padding-right: 	10%;
+	font-size: 2em;
+	}
+	
+	.kontaktfomular{ 
+	background-color:green;
+	display: inline-block;
+		
+		
+	}
+	
+	.info{background-color:#FF71E3;
+	display: flex;
+	flex-direction: row; 
+	}
+	.btn{ background-color: black; 
+	color: white;}
+	
+	input{ 
+	background-color: #D5CFC5;
+	border: none;
+	border-radius: 25px;
+	}
+	textarea{ background-color: #D5CFC5;
+	border: none;
+	border-radius: 25px;
+	}
+	.copyright{ 
+	text-align: center;
+	}
+	</style>
+</head>
+
+<body>
+<header>
+<nav class="nav">
+<a href="index.html" class"logo"><img src="Icons/skråsnit-logo-fritlagt.jpg" width="100" height="auto"></a>
+	<a href="" class="menu">Portfolio</a>
+	<a href="" class="menu">Baggrund</a>
+	<a href="" class="menu">Levering</a>
+	<a href="" class="menu">Kontakt</a>
+	</nav>
+  <h1>Overskrift</h1>
+</header>
+<main class="main">Content for  class "main" Goes Here</main>
+<article class="articel">Content for  class "articel" Goes Here</article>
+
+<footer class="footer"> 
+<div class="kontaktfomular"> 
+<h4> Kontaktformular</h4>
+<form>
+        <fieldset>
+          <h4>Kontakt</h4>
+          <label class="labelone" for="navn">Navn:</label>
+          <input name="navn"/>
+          <label for"firma">Evt. firma:</label>
+          <input name="Firma"/>
+          <label for"email">Email:</label>
+          <input name="email"/>
+          <label for="Besked">Besked</label>
+          <textarea name="Besked"></textarea>
+        </fieldset>
+        <fieldset>
+          <input class="btn" type="submit" value="Send Email"/>
+        </fieldset>
+      </form>
+
+</div>
+<div class="info"><p>Adresse: Mejlgade 27 1 th, 
+8000 Aarhus C</p>
+<p>Telefon: <a href="tel:+45-61660336">61 66 03 36</a></p>
+<p>Email: <a href="mailto:Skråsnit@gmail.com" target="_top" >Skråsnit@gmail.com</a> </p> <!--Kildekode: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
+<p>Cvr-nr: 35085866</p></div>
+<div class="copyright">
+	<p>Copyright 2018</p>
+</div>
+
+
+
+</footer>
+</body>
+</html>
