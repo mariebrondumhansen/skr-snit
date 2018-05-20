@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+	/*Fonte*/
+	a,H1{ 
+		font-family: 'Rajdhani', sans-serif; /*mangler medium*/
+	}
+	H1{ text-align: center;
+		color: rgb(255, 255, 255);
+		text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71); 
+		font-size: 70px;
+		/*Hjælp: Photoshop: css*/
+		/*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+	}
+	
+	p,label,.btn{ 
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	/*End*/
+	
+	/*Menu*/
+	.menu{ 
+	text-decoration: none;
+	padding-right: 	10%;
+	font-size: 2em;
+	}
+	/*end*/
+	/*Beskrivelse af event*/
+	.beskrivelse{ 
+				display: flex;
+				flex-direction: row;
+	}
+	.beskrivelse1{
+				background-color: red; 
+		
+		
+	}
+	.beskrivelse2{ 
+		background-color: blue;
+		
+		
+		
+		
+	}
+	/*end*/
+	/*Undermenu*/
+	.undermenu{
+		display: flex; 
+		flex-flow: row;
+	}
+	/*end*/
+	/*footer*/
+	footer{
+		display: flex;
+	}
+	
+	.kontaktfomular{ 
+	background-color:green;	
+		flex: 1;
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	#kontaktfomular{
+		text-align: center;
+	}
+	
+	.info{background-color:#FF71E3;
+		flex: 1;
+		display: inline-flex;
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+	.SoMe-icon:hover{opacity: 0.7; }
+	/*Styling af knap*/
+	.btn{ background-color: black; 
+	color: white;
+	}
+	.btn.hover{ background-color: black; 
+	color: white;
+	cursor: pointer;
+	}
+	
+	/*End*/
+	
+	input{ 
+	background-color: #D5CFC5;
+	border: none;
+	border-radius: 25px;
+	}
+	textarea{ background-color: #D5CFC5;
+	border: none;
+	border-radius: 25px;
+	}
+	#copyright{ 
+	text-align: center;
+	}
+	/*end*/
+	
+@media (max-width : 777px ){
+	/*Info rykker op*/
+	footer{ display: flex;
+	flex-wrap: wrap-reverse;}
+}
+	/*Beskrivelse rykke nedenunder hinanden*/
+	.beskrivelse{ 
+		flex-direction: column;
+	}
+	/*end*/
+/*3. Undermenu skjules*/
+	#undermenu-hide{
+		display: none;
+	}
+	/*end*/
