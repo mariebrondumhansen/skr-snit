@@ -1,26 +1,28 @@
-<link href="style.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="nav.css" type="text/css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
 
 <nav>
-    <div class="topLeft">
-        <a href="#"><img src="Icons/skr%C3%A5snit-logo-fritlagt.jpg" alt=""></a>
-    </div>
+   
+    <button class="topLeft"><img src="icons/skr%C3%A5snit-logo-fritlagt.jpg" alt=""></button>
+   
 
-    <div class="topRight">
-        <button class="dropbtn"></button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="#">portfolio</a>
-            <a href="#">baggrund</a>
-            <a href="#">levering</a>
-            <div class="soMe">
-                <a href="tel:30242401"><img src="Icons/Some_logoer/Menu-iconer/Ring/Ring-menu.png" alt=""></a>
-                <a href="mailto:someone@example.com"><img src="Icons/Some_logoer/Menu-iconer/Kontakt/Kontat-menu.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/anjabachhansen/"><img src="Icons/Some_logoer/Menu-iconer/Linkedin/Linkdin-menu.png" alt=""></a>
-            </div>
-        </div>
-    </div>
+       <button class="dropbtn"><img id="burgerMenu"></button>
+       <div id="myDropdown" class="dropdown-content">
+           <a href="#" class="uPunkt">portfolio</a>
+           <a href="#" class="uPunkt">Baggrund</a>
+           <a href="#" class="uPunkt">levering</a>
+           <a href="#" class="uPunkt">Kontakt</a>
+           <div class="soMe">
+               <a href="tel:30242401" id="tel"><img src="icons/menu-iconer/ring/Ring-menu.png" alt=""></a>
+               <a href="mailto:someone@example.com" id="mail"><img src="icons/menu-iconer/kontakt/Kontat-menu.png" alt=""></a>
+               <a href="https://www.linkedin.com/in/anjabachhansen/" id="linkedin"><img src="icons/menu-iconer/linkedin/Linkdin-menu.png" alt=""></a>
+           </div>
+       </div>
+
 </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- <script src="jquery-3.3.1.js"></script> -->
+<script src="jquery-3.3.1.min.js"></script>
 <script src="nav.js"></script>
