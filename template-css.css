@@ -1,6 +1,6 @@
-@charset "utf-8";
 /* CSS Document */
 
+<<<<<<< Updated upstream
 /*Fonte*/
 
 a,
@@ -10,6 +10,7 @@ H1 {
 }
 
 H1 {
+    font-family: 'Rajdhani', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
@@ -45,16 +46,10 @@ label,
 
 .beskrivelse1 {
     background-color: red;
-
-
 }
 
 .beskrivelse2 {
     background-color: blue;
-
-
-
-
 }
 
 /*end*/
@@ -89,14 +84,18 @@ footer {
 .info {
     background-color: #FF71E3;
     flex: 1;
-    display: inline-flex;
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 24px;
+
 
 }
 
-.SoMe-icon:hover {
-    opacity: 0.7;
+.SoMe-icon {
+    width: auto;
+    height: 50px;
+    margin: 0 3% 0 3%;
 }
 
 /*Styling af knap*/
@@ -148,6 +147,155 @@ textarea {
 
 /*end*/
 
+=======
+/*Fonte*/
+
+a,
+H1 {
+    font-family: 'Rajdhani', sans-serif;
+    /*mangler medium*/
+}
+
+H1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+    font-size: 70px;
+    /*Hjælp: Photoshop: css*/
+    /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+}
+
+p,
+label,
+.btn {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*End*/
+
+/*Menu*/
+
+.menu {
+    text-decoration: none;
+    padding-right: 10%;
+    font-size: 2em;
+}
+
+/*end*/
+
+/*Beskrivelse af event*/
+
+.beskrivelse {
+    display: flex;
+    flex-direction: row;
+}
+
+.beskrivelse1 {
+    background-color: red;
+
+
+}
+
+.beskrivelse2 {
+    background-color: blue;
+
+}
+
+/*end*/
+
+/*Undermenu*/
+
+.undermenu {
+    display: flex;
+    flex-flow: row;
+}
+
+/*end*/
+
+/*footer*/
+
+footer {
+    display: flex;
+}
+
+.kontaktfomular {
+    background-color: green;
+    flex: 1;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#kontaktfomular {
+    text-align: center;
+}
+
+.info {
+    background-color: #FF71E3;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.SoMe-icon:hover {
+    opacity: 0.7;
+}
+
+/*Styling af knap*/
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn.hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    justify-content: space-around;
+    height: 50px;
+    width: auto;
+}
+
+/*End*/
+
+input {
+    background-color: #D5CFC5;
+    border: none;
+    border-radius: 25px;
+}
+
+textarea {
+    background-color: #D5CFC5;
+    border: none;
+    border-radius: 25px;
+}
+
+#copyright {
+    text-align: center;
+}
+
+/*end*/
+
+@media (max-width: 777px) {
+    /*Info rykker op*/
+    footer {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+/*Beskrivelse rykke nedenunder hinanden*/
+
+.beskrivelse {
+    flex-direction: column;
+}
+
+/*end*/
+
+> > > > > > > Stashed changes
 /*3. Undermenu skjules*/
 
 #undermenu-hide {
