@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
     /* mobil navigationsbar*/
     /*Selve kasserne (inkl) billeder og deres placering*/
     nav {
@@ -14,13 +14,14 @@
         justify-content: space-between;
         padding: 0% 0% 2%;
         height: 8%;
+        width: 100%;
         position: fixed;
         background-color: white;
         z-index: 1;
     }
 
     .topLeft {
-        width: 60%;
+        width: 50%;
         height: 100%;
         border: none;
         background-color: transparent;

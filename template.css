@@ -1,11 +1,3 @@
-/*Sikrer at padding og margin er med i den totale width og height af elementerne */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 @media only screen and (max-width: 425px) {
     /*Fonts*/
     a,
