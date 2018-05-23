@@ -15,3 +15,11 @@ setInterval(function () {
         .appendTo('#slideshow');
 }, 5000);
 // hentet fra https://www.nemprogrammering.dk/wp/simpelt-slideshow-med-css3-og-jquery/
+
+
+
+$(document).ready(function () {
+    $("button").click(function () {
+        $("h4").toggle();
+    });
+});

@@ -58,19 +58,40 @@
         float: right;
     }
 
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+
+    .content h4 {
+        font-weight: 300;
+    }
+
     .underoverskrift {
         font-family: 'Rajdhani', sans-serif;
         font-size: 1.5em;
         margin: 8% 0% 0% 5%;
     }
 
+    .button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 2%;
+        align-content: center;
+    }
 
     .text {
         padding: 8% 8%;
-        font-size: 1.1em;
+        font-size: 1em;
+        font-family: 'Open Sans Condensed', sans-serif;
     }
 
 }
+
+
+/*------------------------------------------------------------------Desktop mode*/
 
 @media only screen and (min-width:427px) {
     a,
