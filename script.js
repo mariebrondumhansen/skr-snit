@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
     $("nav").load("navbar.html");
 })
@@ -15,3 +16,8 @@ setInterval(function () {
         .end()
         .appendTo('#slideshow');
 }, 5000);
+=======
+$(document).ready(function(){
+    $("nav").load("nav.html");
+})
+>>>>>>> bde67e512df2117a8685c20764e3e2bb0d0ffb4b

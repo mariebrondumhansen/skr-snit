@@ -1,0 +1,20 @@
+/*Sikrer at padding og margin er med i den totale width og height af elementerne */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Her er der layout på fonts i alle a tags*/
+
+@media only screen and (max-width: 425px) {
+    a {
+        font-family: 'Rajdhani', sans-serif;
+        /*mangler medium*/
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 2.2em;
+        text-transform: uppercase;
+    }
+}

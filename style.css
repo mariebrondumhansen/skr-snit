@@ -1,112 +1,34 @@
-/*Sikrer at padding og margin er med i den totale width og height af elementerne */
-
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-a,
+main {
+    padding-top: 10%;
+}
+
 h1 {
     font-family: 'Rajdhani', sans-serif;
     /*mangler medium*/
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 120px;
+    font-size: 5em;
     text-transform: uppercase;
+    text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
     /*Hjælp: Photoshop: css*/
     /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
 }
 
-/* mobil navigationsbar*/
-
-.topLeft img {
-    width: 100%;
-    height: 80px;
-    padding: 0px;
-}
-
-.topLeft {
-    background-color: transparent;
-    border: none;
-    width: 50%;
-    float: left;
-}
-
-.dropbtn {
-    background-color: transparent;
-    border: none;
-    float: right;
-    height: 80px;
-    width: 100%;
-    background-image: url(Icons/menu.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-}
-
-.topRight {
-    position: relative;
-    display: inline-block;
-    width: 10%;
-    float: right;
-}
-
-.dropdown-content {
-    display: none;
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    background-color: white;
-    left: 0;
-    top: 85px;
-    z-index: 1;
-}
-
-.soMe {
-    display: flex;
-    justify-content: space-between;
-}
-
-.soMe img {
-    width: 100%;
-}
-
-.dropdown-content a {
-    color: black;
-    font-family: 'Rajdhani', sans-serif;
-    padding: 5% 10%;
-    text-decoration: none;
-    display: block;
-}
-
-.topRight a:hover {
-    color: white;
-    background-image: url(Icons/tr%C3%A6-icon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-#chevron {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    float: left;
-    height: 50%;
-    width: 100%;
-    background: #39a234;
-    transform: distort(0deg, 4deg);
-    display: none;
-}
 
 #trapezoid {
 	border-bottom: 425px solid #39a234;
-	border-left: 40px solid black;
-	border-right: 50px solid black;
-	height: 100%;
-    width: 100%;
+	border-left: 60px solid black;
+	border-right: 60px solid black;
+    width: 425px;
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Safari */
     transform: rotate(90deg); /* Standard syntax */
+    z-index: 0;
 }
-/* Dropdown og ovenstående kode inspireret af https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown*/
+/*https://css-tricks.com/examples/ShapesOfCSS/*/
