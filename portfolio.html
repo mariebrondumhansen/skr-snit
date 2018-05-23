@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
-    <meta name="description" content="martinas portfolio from erhvervsakademi aarhus in denmark. Her brilliant and beautiful work from her 1.semester.">
+    <meta name="description" content="Anja Bach Hansens flotte og unikke portfolio med billeder fra de flotteste events og arrangementer">
     <meta name="author" content="Martina M. D. Tay">
 
     <!-- Mobile Specific Metas -->
@@ -20,55 +20,57 @@
 <body>
     <nav></nav>
     <main>
-        <h1 class="overskrift">Portfolio</h1>
+        <div class="overskrift">
+            <h1>Portfolio</h1>
+        </div>
 
         <div id="slideshow">
-            <div><img src="image/Portfolio/1w.jpg" class="slides"></div>
-            <div><img src="image/Portfolio/2w.png" class="slides"></div>
-            <div><img src="image/Portfolio/3w.png" class="slides"></div>
+            <div class="slides"><img src="image/Portfolio/1w.png" style="width: 100%" alt="artikel med blomst"></div>
+            <div class="slides"><img src="image/Portfolio/2w.png" style="width: 100%" alt="farverig buket"></div>
+            <div class="slides"><img src="image/Portfolio/3w.png" style="width: 100%" alt="juledekoration adventslys"></div>
         </div>
 
         <aside>
             <div class="galleri">
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/1m.png" class="gallpic">
+                        <img src="image/Portfolio/1m.png" class="gallpic" alt="en blomst med blade">
                         <p>Firmafest 2017</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/2m.png" class="gallpic">
+                        <img src="image/Portfolio/2m.png" class="gallpic" alt="en flot blomst">
                         <p>Buket i forårets farver</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/3m.png" class="gallpic">
+                        <img src="image/Portfolio/3m.png" class="gallpic"  alt="blomster i mange farver">
                         <p>Juledekoration 2016</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/4m.png" class="gallpic">
+                        <img src="image/Portfolio/4m.png" class="gallpic" alt="super flot farve">
                         <p>Brudebuket Juni 2017</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/1m.png" class="gallpic">
+                        <img src="image/Portfolio/1m.png" class="gallpic" alt="røde blomster, men ikke rigtig">
                         <p>Firmafest 2017</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/2m.png" class="gallpic">
+                        <img src="image/Portfolio/2m.png" class="gallpic" alt="smukke blomster i rød">
                         <p>Buket i forårets farver</p>
                     </a>
                 </div>
                 <div class="square">
                     <a href="">
-                        <img src="image/Portfolio/3m.png" class="gallpic">
+                        <img src="image/Portfolio/3m.png" class="gallpic" alt="super flot farve">
                         <p>Juledekoration 2016</p>
                     </a>
                 </div>
@@ -82,41 +84,15 @@
         </aside>
 
         <footer>
-            <img src="image/grass.png" class="grass">
-            <div class="info">
-                <p>Adresse: Mejlgade 27 1 th, 8000 Aarhus C</p>
-                <p>Telefon: <a href="tel:+45-61660336">61 66 03 36</a></p>
-                <p>Email: <a href="mailto:Skråsnit@gmail.com" target="_top">Skråsnit@gmail.com</a> </p>
-                <!--Kildekode: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
-                <p>Cvr-nr: 35085866</p>
-            </div>
 
-            <div class="kontaktfomular">
-                <form>
-                    <fieldset>
-                        <h4 id="kontaktfomular">Kontaktformular</h4>
-                        <label for="navn">Navn:*</label>
-                        <input name="navn" />
-                        <label for="firma">Evt. firma:</label>
-                        <input name="Firma" />
-                        <label for="email">Email:*</label>
-                        <input name="email" />
-                        <label for="Besked">Besked:*</label>
-                        <textarea name="Besked"></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <input class="btn" type="submit" value="Send" />
-                    </fieldset>
-                </form>
-            </div>
         </footer>
+    </main>
 
+    <!-- End of Document  -------------------------->
+    <!--Her er jQuery :)-->
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
 
-        <!-- End of Document  -------------------------->
-        <!--Her er jQuery :)-->
-        <script type="text/javascript" src="jquery-3.3.1.js"></script>
-
-        <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
