@@ -1,0 +1,114 @@
+/* styleshiiit*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Overordnet
+- Menubar
+- Main
+- Footer
+- Media Queries
+*/
+
+a,
+H1 {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    /*mangler medium*/
+}
+
+H1 {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+    font-size: 2em;
+    /*Hjælp: Photoshop: css*/
+    /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+}
+
+p,
+label,
+.btn {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*----------------------------------- overskrift*/
+
+.overskrift {
+    background-image: url(../image/bark.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 100%;
+}
+
+/*---------------------------------------------Main*/
+
+#slideshow {
+    position: relative;
+    width: 100%;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.slides {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    width: 100%;
+}
+
+.galleri {
+    margin-top: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20%;
+}
+
+.gallpic {
+    width: 100%;
+    margin-bottom: -6%;
+}
+
+.square {
+    margin: 5%;
+}
+
+.galleri p {
+    background-color: #faf2f2;
+    text-align: center;
+}
+
+.galleri p {
+    color: black;
+}
+
+/*-----------------------------------------------------------Footer*/
+
+.grass {
+    width: 100%;
+}
+
+.info {
+    text-align: center;
+}
+
+.kontaktfomular {
+    background-color: green;
+    font-family: 'Open Sans Condensed', sans-serif;
+    flex: 1;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
