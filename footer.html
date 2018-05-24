@@ -3,30 +3,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="footer.css" type="text/css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
 
 <footer>
-   <img src="image/footer/gr%C3%A6s.png" alt="" id="grass">
-    <div class="info">
-        <p>Adresse: Mejlgade 27 1 th, 8000 Aarhus C</p>
-        <p>Telefon:<a href="tel:+45-61660336">61 66 03 36</a></p>
-        <p>Email:<a href="mailto:Skråsnit@gmail.com" target="_top" id="to">Skråsnit@gmail.com</a> </p>
-        <!--Kildekode: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
-        <p>Cvr-nr: 35085866</p>
-        
-    </div>
-    
-    <div class="kontaktfomular">
+    <img src="image/footer/gr%C3%A6s.png" alt="" id="grass">
 
-        <form>
+    <div class="flex-container">
+       <div class="soMe-container">
+        <div class="info">
+            <p>Adresse: Mejlgade 27 1 th, 8000 Aarhus C</p>
+            <p>Telefon:<a href="tel:+45-61660336">61 66 03 36</a></p>
+            <p>Email:<a href="mailto:Skråsnit@gmail.com" target="_top" id="to">Skråsnit@gmail.com</a> </p>
+            <!--Kildekode: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
+            <p>Cvr-nr: 35085866</p>
+
+        </div>
+
+        <div class="soMe-icons">
+            <a href="https://www.facebook.com/skraasnit/" id="fb"><img src="icons/soMe_logoer/facebook-sort.png" alt=""></a>
+            <a href="https://www.instagram.com/explore/tags/skr%C3%A5snit/" id="insta"><img src="icons/soMe_logoer/instagram-sort.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/anjabachhansen/" id="linked"><img src="icons/soMe_logoer/linkedin-sort.png" alt=""></a>
+        </div>
+        </div>
+
+        <form class="kontaktformular">
             <fieldset>
-                <h4 id="kontaktfomular">Kontaktformular</h4>
-                <label for="navn">Navn:*</label>
-                <input name="navn" />
-                <label for="firma">Evt. firma:</label>
-                <input name="Firma" />
-                <label for="email">Email:*</label>
-                <input name="email" />
-                <label for="Besked">Besked:*</label>
+                <h2>Kontaktformular</h2>
+                <label for="navn">Navn:</label><br>
+                <input name="navn" /><br>
+                <label for="firma">Evt. firma:</label><br>
+                <input name="Firma" /><br>
+                <label for="email">Email:</label><br>
+                <input name="email" /><br>
+                <label for="Besked">Besked:</label><br>
                 <textarea name="Besked"></textarea>
             </fieldset>
             <fieldset>
@@ -34,17 +43,12 @@
             </fieldset>
         </form>
     </div>
-
+    <!--Fieldset taget fra: https://www.w3schools.com/tags/tag_fieldset.asp -->
 
 </footer>
 
 
-<aside>
-    <div id="copyright">
-        <p>Copyright 2018</p>
-    </div>
+<aside id="copyright">
+    <p>Copyright 2018</p>
+
 </aside>
-
-
-<script src="jquery-3.3.1.min.js"></script>
-<script src="nav.js"></script>
