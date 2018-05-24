@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $("nav").load("nav.html");
+    $("footer").load("footer.html")
     $("#arrow").attr("src", "image/arrow_off.png")
     $("#arrow2").attr("src", "image/arrow_off.png")
     $(".button").click(function () {
