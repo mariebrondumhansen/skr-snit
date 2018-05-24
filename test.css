@@ -1,0 +1,32 @@
+/*Sikrer at padding og margin er med i den totale width og height af elementerne */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generel styling på alle devices */
+main {
+    padding-top: 10%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    /*mangler medium*/
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    text-transform: uppercase;
+    text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+    /*Hjælp: Photoshop: css*/
+    /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+}
+
+.trapez p {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 1.3em;
+    z-index: 2;
+}
