@@ -23,6 +23,7 @@ h2 {
 /* Græsset i toppen */
     #grass {
         width: 100%;
+        height: 20px;
     }
 
 /*Her er der layout på fonts i alle a tags*/
@@ -59,7 +60,7 @@ h2 {
     .soMe-icons img {
         width: 100%;
         height: 100%;
-        padding: 10%;
+        padding: 15%;
     }
 
     #fb:hover,
@@ -102,12 +103,13 @@ h2 {
         background-color: #d6d0c5;
         border: none;
         width: 100%;
-        height: 4%;
-        border-radius: 15px;
+        height: 25px;
+        border-radius: 10px;
+        padding-left: 2%;
     }
 
     fieldset textarea {
-        height: 15%;
+        height: 50px;
     }
 
     /* Send knappens størrelse og farve */
@@ -167,7 +169,7 @@ h2 {
     .soMe-icons img {
         width: 100%;
         height: 100%;
-        padding: 15%;
+        padding: 5%;
     }
 
     #fb:hover,
@@ -194,6 +196,10 @@ h2 {
     }
 
     /* Kontaktforumalerens placering og justering af input og felter heri */
+    
+    #grass {
+        height: 225px;
+    }
     .kontaktformular {
         width: 50%;
         padding: 0% 5%;
@@ -205,7 +211,7 @@ h2 {
     }
     
     fieldset label {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     fieldset input,
@@ -214,13 +220,13 @@ h2 {
         border: none;
         padding-left: 2%;
         width: 100%;
-        height: 10%;
-        border-radius: 10px;
-        font-size: 1.2em;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 1.4em;
     }
 
     fieldset textarea {
-        height: 15%;
+        height: 100px;
     }
 
     /* Send knappens størrelse og farve */
