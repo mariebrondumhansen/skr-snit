@@ -32,7 +32,7 @@
         text-align: center;
         color: rgb(255, 255, 255);
         text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
-        font-size: 2.2em;
+        font-size: 2.7em;
         /*Hjælp: Photoshop: css*/
         /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
     }
@@ -54,83 +54,21 @@
 
     main {
         width: 100%;
-        padding-top: 8%;
+        padding-top: 10%;
     }
 
     /*---------------------------------------------Main*/
-    .qlogo {
-        width: 25%;
-        float: right;
+    .omanja {
+        padding: 2% 4%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
     }
 
-    .content {
-        display: flex;
-        flex-flow: column wrap;
+    .timevine {
         width: 100%;
-        font-weight: 300;
-        padding: 4%;
+        padding: 0% 1%;
     }
-
-    .underoverskrift {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 1.2em;
-        font-weight: 400;
-        margin: 5% 0% 0% 4%;
-        text-transform: uppercase;
-    }
-
-    .button {
-        background-color: white;
-        border: none;
-        cursor: pointer;
-        height: 2%;
-        align-content: center;
-        margin-bottom: 4%;
-    }
-
-    .button2 {
-        background-color: white;
-        border: none;
-        cursor: pointer;
-        height: 10%;
-        align-content: center;
-        margin-bottom: 4%;
-    }
-
-    #arrow {
-        width: 10%;
-    }
-
-    #arrow2 {
-        width: 10%;
-    }
-
-    .text {
-        padding: 2% 0%;
-        font-size: 1.2em;
-        font-family: 'Open Sans Condensed', sans-serif;
-        display: none;
-        text-align: justify;
-    }
-
-    .text2 {
-        padding: 2% 0%;
-        font-size: 1.2em;
-        font-family: 'Open Sans Condensed', sans-serif;
-        display: none;
-        text-align: justify;
-    }
-
-    .offtext {
-        padding: 2% 0%;
-        font-size: 1.2em;
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-
 }
-
-
-/*------------------------------------------------------------------Desktop mode*/
 
 @media only screen and (min-width:427px) {
     a,
@@ -175,24 +113,15 @@
     }
 
     /*---------------------------------------------Main*/
-    .qlogo {
-        display: flex;
-        align-items: flex-end;
-        width: 15%;
-        float: right;
-        margin-right: 5%;
-    }
-
-    .underoverskrift {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 1.5em;
-        margin: 4% 0% 0% 5%;
-    }
-
-    .text {
+    .omanja {
+        padding: 2% 20%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
         column-count: 2;
-        padding: 2% 5%;
-        font-size: 1.3em;
+    }
+
+    .timevine {
+        width: 50%;
     }
 
 }
