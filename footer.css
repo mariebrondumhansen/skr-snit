@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Sikrer at padding og margin er med i den totale width og height af elementerne */
 
 * {
@@ -243,4 +244,316 @@ h2 {
         margin-top: 0.5%;
     }
 }
+=======
+/*Sikrer at padding og margin er med i den totale width og height af elementerne */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Fonte og  placering heraf*/
+
+footer {
+    display: block;
+    bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+/* Græsset i toppen */
+    #grass {
+        width: 100%;
+<<<<<<< HEAD
+=======
+        height: 20px;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+/*Her er der layout på fonts i alle a tags*/
+
+@media only screen and (max-width: 426px) {
+
+    /*Fonte størrelse*/
+    footer {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+
+    /* Informationsboksen */
+    .info {
+        width: 100%;
+        padding: 0% 10%;
+        margin-top: 5%;
+    }
+
+    /* Sociale medier knapper, deres størrelse og placering. Desuden hover effekt til hvid */
+    .soMe-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 10%;
+        padding: 0% 10%;
+        margin-top: 5%;
+    }
+
+    .soMe-icons img {
+        width: 100%;
+        height: 100%;
+<<<<<<< HEAD
+        padding: 10%;
+=======
+        padding: 15%;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    #fb:hover,
+    #insta:hover,
+    #linked:hover {
+        width: 100%;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #fb:hover {
+        background-image: url(icons/soMe_logoer/facebook-hvid.png);
+    }
+
+    #insta:hover {
+        background-image: url(icons/soMe_logoer/instagram-hvid.png);
+    }
+
+    #linked:hover {
+        background-image: url(icons/soMe_logoer/linkedin-hvid.png);
+
+    }
+
+    /* Kontaktforumalerens placering og justering af input og felter heri */
+    .kontaktformular {
+        width: 100%;
+        margin-top: 5%;
+        padding: 0% 10%;
+    }
+
+    fieldset {
+        border: none;
+        text-align: justify;
+    }
+
+    fieldset input,
+    fieldset textarea {
+        background-color: #d6d0c5;
+        border: none;
+        width: 100%;
+<<<<<<< HEAD
+        height: 4%;
+        border-radius: 15px;
+    }
+
+    fieldset textarea {
+        height: 15%;
+=======
+        height: 25px;
+        border-radius: 10px;
+        padding-left: 2%;
+    }
+
+    fieldset textarea {
+        height: 50px;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    /* Send knappens størrelse og farve */
+    .btn {
+        color: white;
+        background-color: black;
+        width: 30%;
+        margin-top: 2%;
+        float: right;
+    }
+
+    aside {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 427px) {
+
+    /*Fonte størrelse*/
+    h2 {
+        font-size: 2.1em;
+    } 
+    
+    #grass {
+        height: 20%;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+<<<<<<< HEAD
+        width: 100%;
+        margin-top: 2.5%;
+    }
+    
+    .soMe-container {
+        width: 50%;
+        padding: 0% 5%;
+        font-size: 1.8em;
+    }
+    
+    /* Informationsboksen */
+    .info {
+        width: 100%;
+=======
+        width: 100%;
+        margin-top: 2.5%;
+    }
+    
+    .soMe-container {
+        width: 50%;
+        padding: 0% 5%;
+        font-size: 1.8em;
+    }
+    
+    /* Informationsboksen */
+    .info {
+        width: 100%;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+        font-size: 1.0em
+    }
+
+    /* Sociale medier knapper, deres størrelse og placering. Desuden hover effekt til hvid */
+    .soMe-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 25%;
+        margin-top: 2.5%;
+    }
+
+    .soMe-icons img {
+        width: 100%;
+        height: 100%;
+<<<<<<< HEAD
+        padding: 15%;
+=======
+        padding: 5%;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    #fb:hover,
+    #insta:hover,
+    #linked:hover {
+        width: 70%;
+        background-color: black;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #fb:hover {
+        background-image: url(icons/soMe_logoer/facebook-hvid.png);
+    }
+
+    #insta:hover {
+        background-image: url(icons/soMe_logoer/instagram-hvid.png);
+    }
+
+    #linked:hover {
+        background-image: url(icons/soMe_logoer/linkedin-hvid.png);
+
+<<<<<<< HEAD
+    }
+
+    /* Kontaktforumalerens placering og justering af input og felter heri */
+    .kontaktformular {
+        width: 50%;
+        padding: 0% 5%;
+    }
+
+    fieldset {
+        border: none;
+        text-align: justify;
+=======
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    /* Kontaktforumalerens placering og justering af input og felter heri */
+    
+<<<<<<< HEAD
+    fieldset label {
+        font-size: 1.3em;
+=======
+    #grass {
+        height: 225px;
+    }
+    .kontaktformular {
+        width: 50%;
+        padding: 0% 5%;
+    }
+
+    fieldset {
+        border: none;
+        text-align: justify;
+    }
+    
+    fieldset label {
+        font-size: 1.5em;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    fieldset input,
+    fieldset textarea {
+        background-color: #d6d0c5;
+        border: none;
+        padding-left: 2%;
+        width: 100%;
+<<<<<<< HEAD
+        height: 10%;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+
+    fieldset textarea {
+        height: 15%;
+=======
+        height: 50px;
+        border-radius: 15px;
+        font-size: 1.4em;
+    }
+
+    fieldset textarea {
+        height: 100px;
+>>>>>>> 4ad89078e32fc97546ee8a1cedebcadc1a0fe6fe
+    }
+
+    /* Send knappens størrelse og farve */
+    .btn {
+        color: white;
+        background-color: black;
+        width: 35%;
+        margin-top: 2%;
+        float: right;
+    }
+
+    aside {
+        text-align: center;
+        margin-top: 0.5%;
+    }
+}
+>>>>>>> MMDT
    

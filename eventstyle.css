@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* styleshiiit*/
 
 /* Table of contents
@@ -196,3 +197,251 @@
     }
 
 }
+=======
+/* styleshiiit*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+------ Mobilstørrelse
+- Fonte
+- Main
+- Footer
+------ Desktop
+- Fonte
+- Main
+- Footer
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 426px) {
+
+    a,
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: none;
+        /*mangler medium*/
+    }
+
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.2em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 4% 0%
+    }
+
+    main {
+        width: 100%;
+        padding-top: 8%;
+    }
+
+    /*---------------------------------------------Main*/
+    .qlogo {
+        width: 25%;
+        float: right;
+    }
+
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        font-weight: 300;
+        padding: 4%;
+    }
+
+    .underoverskrift {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        margin: 5% 0% 0% 4%;
+        text-transform: uppercase;
+    }
+
+    .button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 2%;
+        align-content: center;
+        margin-bottom: 4%;
+    }
+
+    .button2 {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 10%;
+        align-content: center;
+        margin-bottom: 4%;
+    }
+
+    #arrow {
+        width: 10%;
+    }
+
+    #arrow2 {
+        width: 10%;
+    }
+
+    .text {
+        padding: 2% 0%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        display: none;
+        text-align: justify;
+    }
+
+    .text2 {
+        padding: 2% 0%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        display: none;
+        text-align: justify;
+    }
+
+    .offtext {
+        padding: 2% 0%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+}
+
+
+/*------------------------------------------------------------------Desktop mode*/
+
+@media only screen and (min-width:427px) {
+    a,
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: none;
+        /*mangler medium*/
+    }
+
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.7em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-position: center;
+        padding: 5% 10%;
+        width: 50%;
+        height: 5%;
+        text-transform: uppercase;
+    }
+
+    main {
+        width: 100%;
+        padding-top: 2%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    /*---------------------------------------------Main*/
+    .qlogo {
+        display: flex;
+        align-items: flex-end;
+        width: 15%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .underoverskrift {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.5em;
+        margin: 4% 0% 0% 5%;
+    }
+
+    .offtext {
+        padding: 2% 5%;
+        font-size: 1.3em;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .text {
+        column-count: 2;
+        padding: 1% 5%;
+        font-size: 1.3em;
+        display: none;
+        margin-top: -3%;
+        text-align: justify;
+    }
+
+    .text2 {
+        column-count: 2;
+        padding: 1% 5%;
+        font-size: 1.3em;
+        display: none;
+        margin-top: -3%;
+        text-align: justify;
+    }
+    .button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 2%;
+        align-content: center;
+        margin: 0% 46% 4%;
+    }
+
+    .button2 {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 2%;
+        align-content: center;
+        margin: 0% 46% 4%;
+    }
+
+    #arrow {
+        width: 20%;
+    }
+
+    #arrow2 {
+        width: 20%;
+    }
+
+}
+>>>>>>> MMDT
