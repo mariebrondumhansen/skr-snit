@@ -1,0 +1,301 @@
+/*Sikrer at padding og margin er med i den totale width og height af elementerne */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 426px) {
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.7em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 4% 0%
+    }
+
+    main {
+        width: 100%;
+        padding-top: 10%;
+    }
+    .kontakt {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .kontakt-text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .kontakt-text img {
+        width: 100%;
+    }
+
+    
+    .billedeTop {
+        display: none;
+    }
+
+    /* Kontaktforumalerens placering og justering af input og felter heri */
+    .kontaktformularEt {
+        width: 100%;
+        margin-top: 5%;
+        padding: 0% 10%;
+    }
+
+    .fieldset {
+        border: none;
+        text-align: justify;
+    }
+
+    .fieldset input,
+    .fieldset textarea {
+        background-color: #d6d0c5;
+        border: none;
+        width: 100%;
+        height: 25px;
+        border-radius: 10px;
+        padding-left: 2%;
+    }
+
+    .fieldset textarea {
+        height: 50px;
+    }
+
+    /* Send knappens størrelse og farve */
+    .btn {
+        color: white;
+        background-color: black;
+        width: 30%;
+        margin-top: 2%;
+        float: right;
+    }
+
+    .trapez {
+        position: relative;
+    }
+
+    .trapez p {
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        color: white;
+        font-size: 1.3em;
+        z-index: 2;
+        padding: 0% 10%;
+    }
+    
+    aside {
+        width: 100%;
+    }
+
+    .galleri {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .galleri a{
+        text-decoration: none;
+    }
+    
+    .square {
+        width: 45%;
+        height: 40%;
+        background-color: #faf2f2;
+    }
+
+    .galleri img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .galleri p {
+        background-color: #faf2f2;
+        text-align: center;
+        font-size: 1.1em;
+        color: black;
+    }
+
+    #tredje {
+        display: none;
+    }
+
+
+}
+@media only screen and (min-width: 427px) {
+        h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.7em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 5% 10%;
+        width: 50%;
+        height: 20%;
+        margin: 0% 25%;
+    }
+
+    main {
+        width: 100%;
+        padding: 2% 0%;
+
+    }
+    .kontakt {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+
+    .kontakt-text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        text-align: center;
+    }
+    
+    
+    .kontakt-text img {
+        width: 40%;
+    }
+
+    /* Kontaktforumalerens placering og justering af input og felter heri */
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .billedeTop {
+        width: 45%;
+        padding-left: 5%;
+    }
+
+    .billedeTop img {
+        width: 100%;
+        height: auto;
+    }
+        
+    .kontaktformularEt {
+        width: 45%;
+        height: auto;
+        padding-right: 5%;
+    }
+
+    .fieldset {
+        border: none;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .fieldset input,
+    .fieldset textarea {
+        background-color: #d6d0c5;
+        border: none;
+        width: 100%;
+        height: 25px;
+        border-radius: 10px;
+        padding-left: 2%;
+    }
+
+    .fieldset textarea {
+        height: 50px;
+    }
+
+    /* Send knappens størrelse og farve */
+    .btn {
+        color: white;
+        background-color: black;
+        width: 30%;
+        margin-top: 2%;
+        float: right;
+    }
+
+    .trapez {
+        position: relative;
+    }
+    
+    .trapez img {
+        height: 500px;
+    }
+
+    .trapez p {
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        color: white;
+        font-size: 2.3em;
+        z-index: 2;
+        padding: 0% 25%;
+    }
+    
+    aside {
+        width: 100%;
+    }
+
+    .galleri {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .galleri a{
+        text-decoration: none;
+    }
+    
+    .square {
+        width: 30%;
+        height: 60%;
+        background-color: #faf2f2;
+    }
+
+    .galleri img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .galleri p {
+        background-color: #faf2f2;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+    }
+}
