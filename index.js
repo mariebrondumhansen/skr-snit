@@ -1,5 +1,27 @@
 $(document).ready(function () {
     $("nav").load("nav.html");
+    $("#arrow").attr("src", "image/arrow_off.png")
+    $("#arrow2").attr("src", "image/arrow_off.png")
+    $(".button").click(function () {
+        if ($(".text").is(":hidden")) {
+            $(".text").show();
+            $("#arrow").attr("src", "image/arrow_on.png");
+        } else {
+            $(".text").hide();
+            $("#arrow").attr("src", "image/arrow_off.png")
+        }
+    });
+
+    $(".button2").click(function () {
+        if ($(".text2").is(":hidden")) {
+            $(".text2").show();
+            $("#arrow2").attr("src", "image/arrow_on.png");
+        } else {
+            $(".text2").hide();
+            $("#arrow2").attr("src", "image/arrow_off.png")
+        }
+    });
+
 })
 
 
@@ -15,11 +37,3 @@ setInterval(function () {
         .appendTo('#slideshow');
 }, 5000);
 // hentet fra https://www.nemprogrammering.dk/wp/simpelt-slideshow-med-css3-og-jquery/
-
-
-
-$(document).ready(function () {
-    $("button").click(function () {
-        $("h4").toggle();
-    });
-});
