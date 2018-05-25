@@ -166,6 +166,10 @@
         color: black;
     }
 
+    
+    .uPunkt-active {
+        text-decoration: underline;
+    }
     /*Hover funktion på alle a punkter i dropdown menu*/
     .uPunkt-klik {
         background-image: url(icons/tr%C3%A6-icon.png);
