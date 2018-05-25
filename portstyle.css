@@ -127,6 +127,7 @@
     .btn {
         font-family: 'Open Sans Condensed', sans-serif;
     }
+    
 
     /*----------------------------------- overskrift*/
     .overskrift {
@@ -190,10 +191,7 @@
     .galleri p {
         background-color: #faf2f2;
         text-align: center;
-        font-size: 1.3em;
-    }
-
-    .galleri p {
+        font-size: 1.5em;
         color: black;
     }
 }
