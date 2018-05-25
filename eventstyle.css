@@ -316,11 +316,12 @@
         width: 100%;
     }
 
-    .galleri {
+  .galleri {
         display: flex;
         justify-content: space-around;
+        height: 450px;
     }
-
+    
     .galleri a {
         text-decoration: none;
     }
