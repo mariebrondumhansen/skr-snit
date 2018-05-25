@@ -56,6 +56,45 @@
         width: 100%;
         padding-top: 8%;
     }
+    
+    #pc {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .galleri {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .galleri a {
+        text-decoration: none;
+    }
+
+    .square {
+        width: 45%;
+        height: 40%;
+        background-color: #faf2f2;
+    }
+
+    .galleri img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .galleri p {
+        background-color: #faf2f2;
+        text-align: center;
+        font-size: 1.1em;
+        color: black;
+    }
+
+    #tredje {
+        display: none;
+    }
 
     /*---------------------------------------------Main*/
 }
@@ -104,5 +143,42 @@
         flex-flow: column wrap;
         align-items: center;
     }
+    
+    #mobil {
+        display: none;
+    }
 
-    /*---------------------------------------------Main*/
+    aside {
+        padding-top: 2%;
+        width: 100%;
+    }
+
+    .galleri {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .galleri a {
+        text-decoration: none;
+    }
+
+    .square {
+        width: 30%;
+        height: 60%;
+        background-color: #faf2f2;
+    }
+
+    .galleri img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .galleri p {
+        background-color: #faf2f2;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+    }
+}
+
+/*---------------------------------------------Main*/
