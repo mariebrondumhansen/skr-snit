@@ -93,13 +93,13 @@ h2 {
         padding: 0% 10%;
     }
 
-    fieldset {
+    .fieldset {
         border: none;
         text-align: justify;
     }
 
-    fieldset input,
-    fieldset textarea {
+    .fieldset input,
+    .fieldset textarea {
         background-color: #d6d0c5;
         border: none;
         width: 100%;
@@ -108,7 +108,7 @@ h2 {
         padding-left: 2%;
     }
 
-    fieldset textarea {
+    .fieldset textarea {
         height: 50px;
     }
 
@@ -117,8 +117,11 @@ h2 {
         color: white;
         background-color: black;
         width: 30%;
+        height: 25px;
         margin-top: 2%;
         float: right;
+        border: none;
+        border-radius: 10px;
     }
 
     aside {
@@ -205,17 +208,17 @@ h2 {
         padding: 0% 5%;
     }
 
-    fieldset {
+    .fieldset {
         border: none;
         text-align: justify;
     }
     
-    fieldset label {
+    .fieldset label {
         font-size: 1.5em;
     }
 
-    fieldset input,
-    fieldset textarea {
+    .fieldset input,
+    .fieldset textarea {
         background-color: #d6d0c5;
         border: none;
         padding-left: 2%;
@@ -225,7 +228,7 @@ h2 {
         font-size: 1.4em;
     }
 
-    fieldset textarea {
+    .fieldset textarea {
         height: 100px;
     }
 
@@ -234,8 +237,11 @@ h2 {
         color: white;
         background-color: black;
         width: 35%;
+        height: 50px;
         margin-top: 2%;
         float: right;
+        border: none;
+        border-radius: 10px;
     }
 
     aside {

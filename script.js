@@ -36,5 +36,5 @@ setInterval(function () {
         .fadeIn(2000)
         .end()
         .appendTo('#slideshow');
-}, 5000);
+}, 4000);
 // hentet fra https://www.nemprogrammering.dk/wp/simpelt-slideshow-med-css3-og-jquery/
