@@ -1,0 +1,203 @@
+/* styleshiiit*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+------ Mobilstørrelse
+- Fonte
+- Main
+- Footer
+------ Desktop
+- Fonte
+- Main
+- Footer
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 426px) {
+
+    a,
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: none;
+        /*mangler medium*/
+    }
+
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.2em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 4% 0%
+    }
+
+    main {
+        width: 100%;
+        padding-top: 18%;
+    }
+
+    /*---------------------------------------------Main*/
+    .del1 {
+        position: relative;
+    }
+
+    .ontop {
+        display: none;
+    }
+
+    .mere {
+        color: white;
+        position: absolute;
+        top: 160px;
+        left: 200px;
+    }
+
+    .om {
+        width: 100%;
+        margin: 2%;
+    }
+
+    .anja {
+        width: 35%;
+        margin: 1%;
+        float: left;
+    }
+
+    .del2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20%;
+    }
+
+    .del3 {
+        margin: 2%;
+    }
+
+    .lev {
+        width: 35%;
+        height: 100px;
+        margin: 1%;
+        float: left;
+    }
+}
+
+
+/*------------------------------------------------------------------Desktop mode*/
+
+@media only screen and (min-width:427px) {
+    a,
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-decoration: none;
+        /*mangler medium*/
+    }
+
+    h1 {
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
+        font-size: 2.7em;
+        /*Hjælp: Photoshop: css*/
+        /*Hjælp fra: http://www.melanieceraso.com/psd-to-css3/*/
+    }
+
+    p,
+    label,
+    .btn {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*----------------------------------- overskrift*/
+    .overskrift {
+        background-image: url(image/bark.png);
+        background-size: cover;
+        background-position: center;
+        padding: 5% 10%;
+        width: 50%;
+        height: 5%;
+        text-transform: uppercase;
+    }
+
+    main {
+        width: 100%;
+        padding-top: 2%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+
+    /*---------------------------------------------Main*/
+    .del1 {
+        position: relative;
+        width: 100%;
+    }
+
+    .ontop {
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        font-size: 1.2em;
+        box-sizing: content-box;
+        height: 150px;
+        width: 300px;
+        border: 0px solid gray;
+        background-color: white;
+        padding: 2%;
+    }
+
+    .mere {
+        color: black;
+        position: absolute;
+        top: 550px;
+        left: 80%;
+    }
+
+    .del2 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .anja {
+        margin-left: 1%;
+    }
+
+    .om {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .om p {
+        width: 45%;
+        padding: 5%;
+        font-size: 1.2em;
+    }
+
+    .ins {
+        width: 40%;
+    }
+
+}
