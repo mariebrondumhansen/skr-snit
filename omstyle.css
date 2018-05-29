@@ -63,8 +63,56 @@
     }
 
     /*---------------------------------------------Main*/
-    .omanja {
-        padding: 2% 4%;
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        font-weight: 300;
+        padding: 4%;
+    }
+
+    .underoverskrift {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        margin: 5% 0% 0% 4%;
+        text-transform: uppercase;
+    }
+      .button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        height: 2%;
+        align-content: center;
+        margin-bottom: 4%;
+    }
+
+    #arrow {
+        width: 10%;
+    }
+
+    #arrow2 {
+        width: 10%;
+    }
+
+    .text {
+        padding: 2% 0%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        display: none;
+        text-align: justify;
+    }
+
+    .text2 {
+        padding: 2% 0%;
+        font-size: 1.2em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        display: none;
+        text-align: justify;
+    }
+
+    .offtext {
+        padding: 2% 0%;
         font-size: 1.2em;
         font-family: 'Open Sans Condensed', sans-serif;
     }
@@ -180,11 +228,51 @@
     }
 
     /*Main*/
-    .omanja {
-        padding: 2% 20%;
-        font-size: 1.2em;
+     .content {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .offtext {
+        padding: 2% 2%;
+        font-size: 1.3em;
         font-family: 'Open Sans Condensed', sans-serif;
-        column-count: 2;
+        width: 45%;
+        float: left;
+    }
+
+    .text {
+        padding: 2% 2%;
+        font-size: 1.3em;
+        text-align: justify;
+        width: 45%;
+        float: right;
+    }
+
+    .text2 {
+        padding: 2% 2%;
+        font-size: 1.3em;
+        text-align: justify;
+        width: 45%;
+        float: right;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .button2 {
+        display: none;
+    }
+
+    #arrow {
+        width: 100%;
+    }
+
+    #arrow2 {
+        width: 100%;
     }
 
     .timevine {
