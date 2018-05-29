@@ -34,7 +34,7 @@
 
     main {
         width: 100%;
-        padding-top: 2%;
+        padding-top: 15%;
     }
     .kontakt {
         width: 100%;
@@ -112,7 +112,7 @@
         color: white;
         font-size: 1.3em;
         z-index: 2;
-        padding: 0% 10%;
+        padding: 10% 10%;
     }
     
     aside {
@@ -203,6 +203,10 @@
     
     .kontakt-text img {
         width: 40%;
+    }
+    
+    .kontakt p {
+        font-size: 2em;
     }
 
     /* Kontaktforumalerens placering og justering af input og felter heri */
