@@ -18,7 +18,7 @@
         width: 100%;
         position: fixed;
         background-color: white;
-        z-index: 1;
+        z-index: 5;
     }
 
     .topLeft {
@@ -35,9 +35,10 @@
 
 
     .dropbtn {
-        width: 17%;
+        width: 20%;
         background-color: transparent;
         border: none;
+        padding: 2%;
     }
 
     .dropbtn img {
@@ -134,7 +135,7 @@
         width: 100%;
         position: fixed;
         background-color: white;
-        z-index: 1;
+        z-index: 5;
     }
 
     .topLeft {

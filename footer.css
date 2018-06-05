@@ -44,7 +44,8 @@ h2 {
     .info {
         width: 100%;
         padding: 0% 10%;
-        margin-top: 5%;
+        margin-top: 40px;
+        text-align: center;
     }
 
     /* Sociale medier knapper, deres størrelse og placering. Desuden hover effekt til hvid */
@@ -127,6 +128,11 @@ h2 {
     aside {
         text-align: center;
     }
+    
+    .soMe-container {
+        margin-top: 30px;
+    }
+    
 }
 
 @media only screen and (min-width: 427px) {
