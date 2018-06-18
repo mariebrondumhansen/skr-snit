@@ -13,7 +13,7 @@
     nav {
         display: flex;
         justify-content: space-between;
-        padding: 0% 0% 2%;
+        padding: 0% 2% 2%;
         height: 8%;
         width: 100%;
         position: fixed;
@@ -130,8 +130,8 @@
     nav {
         display: flex;
         justify-content: space-between;
-        padding: 0% 0% 2%;
-        height: 10%;
+        padding: 1% 0% 1%;
+        height: 70px;
         width: 100%;
         position: fixed;
         background-color: white;
@@ -144,6 +144,7 @@
         border: none;
         background-color: transparent;
         cursor: pointer;
+        padding-left: 1%
     }
 
     .topLeft img {
@@ -168,10 +169,7 @@
         color: black;
     }
 
-    
-    .uPunkt-active {
-        text-decoration: underline;
-    }
+
     /*Hover funktion på alle a punkter i dropdown menu*/
     .uPunkt-klik {
         background-image: url(icons/tr%C3%A6-icon.png);
@@ -182,29 +180,8 @@
     
     .uPunkt-klik p {
         color: white;
+        text-shadow: 0px 6px 5.4px rgba(0, 0, 0, 0.71);
     }
-
-    #tel:hover,
-    #mail:hover,
-    #linkedin:hover{
-        width: 100%;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    #tel:hover {
-        background-image: url(icons/menu-iconer/ring/Ring-icon-hover.png);
-    }
-
-    #mail:hover {
-        background-image: url(icons/menu-iconer/kontakt/Besked-menu_hover.png);
-    }
-
-    #linkedin:hover {
-        background-image: url(icons/menu-iconer/linkedin/Linkdin-menu_hover.png);
-    }
-
 }
 
 /* Dropdown og ovenstående kode inspireret af https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown*
